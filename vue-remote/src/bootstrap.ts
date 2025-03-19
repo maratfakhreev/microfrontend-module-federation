@@ -12,6 +12,6 @@ export function mount(el: string) {
 
 export function navigate(path: string) {
   if (router.currentRoute.value.path !== path) {
-    router.push(path)
+    router.replace(path)
   }
 }
