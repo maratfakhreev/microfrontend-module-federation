@@ -1,3 +1,3 @@
-import { mount } from "./bootstrap";
+import { mount } from './bootstrap'
 
-mount("#app");
+mount('#app')

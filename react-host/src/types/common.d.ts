@@ -1,4 +1,4 @@
-declare module "microfrontendVue/VueApp" {
-  const VueApp: any;
-  export default VueApp;
+declare module 'microfrontendVue/VueApp' {
+  const VueApp: any
+  export default VueApp
 }
