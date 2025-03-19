@@ -5,6 +5,7 @@ import router from './router'
 
 export function mount(el: string) {
   const app = createApp(App)
+
   app.use(router)
   app.mount(el)
 }
